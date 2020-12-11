@@ -6,9 +6,15 @@
     <title>Cat Jammin'</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/jpeg" href="assets/CatIcon.jpg" />
+    <script src="js/calculate-bpm.js"></script>
 </head>
 <body>
     <h1>Cat Jammin'</h1>
+    <button onclick="press()">Tap Me</button>
     <h2>Tap the button in sync with the beat to jam with the cat</h2>
+    <video class="SyncBPM" autoplay loop muted>
+        <source src="assets/CatJam.mp4" type="video/mp4">
+    </video>
 </body>
 </html>
