@@ -1,4 +1,4 @@
-var baseBPM = 120;
+var baseBPM = 121;
 var clicks = [];
 var lastTime;
 
