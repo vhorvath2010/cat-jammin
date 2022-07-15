@@ -31,6 +31,6 @@ function updateBPM() {
         var ratio = BPM / baseBPM;
         console.log(ratio);
         document.querySelector('video').playbackRate = ratio;
-        document.querySelector('video').time = 0;
+        document.querySelector('video').currentTime = 0;
     }
 }
